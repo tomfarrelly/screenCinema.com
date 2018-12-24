@@ -1,0 +1,137 @@
+.navbar{
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.footer{
+    background-color: #BC2433;
+    height:10%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+body{
+    background-color: #282728;
+}
+
+.img-fluid {
+    max-width:100%;
+    height: auto;
+}
+/*logo css*/
+.img-responsive{
+    max-width: 60%; 
+    max-height: auto; 
+    text-align:center;
+}
+
+.img-responsive-foot{
+    max-width: 30%; 
+    max-height: auto; 
+    text-align:center;
+}
+
+.card-img{
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.checked {
+        color: orange;
+        }
+
+.card{
+    margin-top: 5%;
+    padding: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #3F3F3F;
+    align-content: center;
+    overflow: hidden;
+    
+}
+.pagination{
+    margin:5%;
+    
+    font-family: 'Abel', sans-serif;
+}
+
+
+.page-item active{
+    background-color: #3F3F3F;
+}
+
+.table{
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+
+.movieTitle{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: none;
+}
+
+.stars{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+  margin:none;
+  height: 50%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background: #3F3F3F;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+}
+
+.form{
+    margin-top:40px;
+    margin:20px;
+}
+
+ 
+
+.fa-ticket{
+    align-self: left;
+}
+
+.fa-star{
+    margin:none;
+   font-size:10px;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.fa-user:hover {
+  color: #fff;
+}
+
